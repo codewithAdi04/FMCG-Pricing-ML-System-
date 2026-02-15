@@ -12,15 +12,15 @@ The goal is to avoid unrealistic ML predictions and generate real-world usable p
 
 ###Architecture Overview
  Request
-  ↓
+  -->
 Feature Engineering
-  ↓
+ -->
 ML Model Prediction
-  ↓
+--->
 Market Price Reference (optional)
-  ↓
+  -->
 Price Adjustment Engine (rules)
-  ↓
+  -->
 Final Price
 
 
@@ -31,33 +31,9 @@ Project structure
 
 
 Pricing-ML-System/
-│
-├── backend/
-│   └── app/
-│       ├── routes/
-│       │   └── predict.py
-│       ├── services/
-│       │   ├── feature_service.py
-│       │   ├── ml_service.py
-│       │   ├── market_price_service.py
-│       │   ├── cost_pricing_service.py
-│       │   └── price_adjustment_service.py
-│       ├── schemas/
-│       │   └── prediction.py
-│       └── main.py
-│
-├── ml/
-│   ├── train.py
-│   ├── features.py
-│   └── dataset_merge.py
-│
-├── data/
-│   └── raw/
-│
-├── models/
-│   └── pricing_model.pkl
-│
-└── README.md
+
+.py<img width="1680" height="1050" alt="Screenshot 2026-02-15 at 7 54 00 AM" src="https://github.com/user-attachments/assets/6f83f877-534e-4eff-91ca-f8212e7b3080" />
+
 
 
 
