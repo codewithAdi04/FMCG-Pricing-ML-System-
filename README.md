@@ -7,10 +7,10 @@ The system combines:
 	•	Market price reference
 	•	Rule-based price adjustment
 	•	Brand, weight, and category logic
-
 The goal is to avoid unrealistic ML predictions and generate real-world usable prices.
 
-                               ###Architecture Overview
+
+###Architecture Overview
  Request
   ↓
 Feature Engineering
@@ -23,7 +23,9 @@ Price Adjustment Engine (rules)
   ↓
 Final Price
 
-                                   Project structure
+
+  
+Project structure
 								   
 
 
