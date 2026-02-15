@@ -1,4 +1,4 @@
-ntelligent FMCG Pricing System (ML + Rules Based)
+Intelligent FMCG Pricing System (ML + Rules Based)
 
 This project is an industrial-style pricing engine designed mainly for FMCG products (biscuits, milk, oil, beverages, bakery, etc.), but it is also extendable to categories like clothing, footwear, and electronics.
 
