@@ -24,9 +24,11 @@ Price Adjustment Engine (rules)
 Final Price
 
                                    Project structure
+								   
 
 
-                                   Pricing-ML-System/
+
+Pricing-ML-System/
 │
 ├── backend/
 │   └── app/
@@ -54,6 +56,9 @@ Final Price
 │   └── pricing_model.pkl
 │
 └── README.md
+
+
+
 
 
 ML Model Details
